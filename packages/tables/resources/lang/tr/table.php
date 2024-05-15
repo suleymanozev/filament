@@ -10,6 +10,11 @@ return [
 
     'columns' => [
 
+        'actions' => [
+            'collapse_list' => ':count tane daha az göster',
+            'expand_list' => ':count tane daha göster',
+        ],
+
         'text' => [
             'more_list_items' => 've :count daha',
         ],
@@ -105,6 +110,10 @@ return [
     'filters' => [
 
         'actions' => [
+
+            'apply' => [
+                'label' => 'Filtreleri uygula',
+            ],
 
             'remove' => [
                 'label' => 'Filtreyi kaldır',
