@@ -1,6 +1,5 @@
 <?php
 
-
 return [
 
     'label' => 'Sorgu oluşturma sihirbazı',
